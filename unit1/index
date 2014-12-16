@@ -1,0 +1,31 @@
+<DOCTYPE! html>
+<html>
+<head>
+<title>About Kate Stark</title>
+</head>
+<body>
+<h1>About Me</h1>
+<p>I’m a marketing professional, living in Covington, KY. I became interested in Front-End Web Design and Development because it allows me to do something both technical and creative that puts my strong organizational skills to use. </p>
+<h2>My Mission</h2>
+<p>As I learn more about front-end, I hope to one day work as a web developer with my current company because I like to work in a laid-back, creative environment that allows me to pursue a balanced life.</p>
+<h2>My Experience</h2>
+<p>This is how I’ve evolved professionally:</p>
+<ul>
+<li><strong>Director of Operations</strong>, Doth Brands</ br><em>Covington, KY, September 2014-present</em></li>
+</ br>
+<li><strong>Executive Director</strong>, Parkinson’s Wellness Chapter, APDA</ br><em>Cincinnati, OH, September 2012-present</em></li>
+</ br>
+<li><strong>Content Coordinator</strong>, PorchDrinking.com<</ br><em>Denver, CO, June 2012-present</em></li> < /br>
+<li><strong>Marketing Associate</strong>, Doth Brands</ br><em>Covington, KY, January 2011- April 2012</em></li> </ br>
+<li><strong>Producer</strong>, WHIO-TV</ br><em>Dayton, OH, October 2009- March 2011</em></li></ br>
+</ul>
+<h2>Education</h2>
+<li><strong>BA Journalism</strong>, Broadcast focus</ br><em>Miami University (Oxford, OH), 2009</em></li> </ br>
+<li><strong>BA Anthropology</strong>, Biological Anthropology focus</ br><em>Miami University (Oxford, OH), 2009</em></li>
+ 
+<h2>Other</h2>
+<p>I also work with a number of dance and theater companies in the Greater Cincinnati area including Pones Inc., de la Dance Company, and Cincinnati Music Theater.
+</ br>
+If you’re interested in collaborating with me on a project, feel free to <a href=“mailto:katestark09@gmail.com>email me</a>.</p>
+</body>
+</html>
