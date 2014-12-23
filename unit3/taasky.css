@@ -1,0 +1,27 @@
+body {
+	background:url("Assets/background.jpg");
+	background-size:cover;	
+	background-repeat:no-repeat;
+	background-color:#52596B;
+	text-align:left;
+	font-weight:200;
+	line-height:20px;
+	font-family:Helvetica, sans-serif;
+	font-size:16px;
+	color:#ffffff;
+	margin:0;
+	padding:0;
+}
+hr {
+	width: 25px;
+	border-color: #FD6F6E;
+	margin: 0;
+}
+#content {
+	margin: 200px 0 0 100px;
+}
+#stripes {
+	background-image:url("Assets/stripes.png");
+	background-repeat:repeat-x;
+	height: 13px;
+}
