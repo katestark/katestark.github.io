@@ -1,0 +1,151 @@
+@charset "UTF-8";
+/* CSS Document */
+    body {
+      	text-align: center;
+      	background: white;
+      	color: 004C76;
+      	font-family: 'Open Sans', sans-serif;
+	  	margin: 0 auto;
+	 	font-size:14px;
+    }
+	p {
+		font-size:1em;
+		color: #000000;
+		text-align: left;
+		bottom: 0;
+		padding-bottom: 20px;
+	}
+	a {
+		font-family: 'Open Sans', sans-serif;
+		color:white;
+		text-decoration:none;
+	}
+	a:hover {
+		color:#09F;
+	}
+	h1 {
+		font-size:4.235801032em;
+		line-height:65px;
+		font-family: 'Arvo', serif;
+	}
+	h2 {
+		font-size:2.617924em;
+		line-height:20px;
+		font-style:strong;
+		font-family: 'Arvo', serif;
+		color:#004C76;
+	}
+	h3 {
+		font-size:1.618em;
+		font-family: 'Arvo', serif;
+		color:#333;
+	}
+	footer {
+		background-color:#004C76;
+		font-size:.7em;
+		color:#ffffff;
+		padding: 20px 40px;
+		margin: 0 auto;
+		font-family: 'Open Sans', sans-serif;
+		text-align:center;
+		text-shadow: 0px 1px #333;
+		clear:both;
+	}
+	nav {
+		text-align:center;
+		text-shadow: 1px 3px #333;
+		margin: 0 auto;
+		clear:both;
+		background:#004C76;
+		box-shadow: 5px 2px 5px #777777;
+	}
+	ul {
+		padding:10px;
+		list-style:none;
+	}
+	li {
+		display:inline;
+		padding:0px 15px 0px 15px;
+		font-size:20px;
+	}
+	input {
+		border:0;
+		padding: 10px;
+		font-size: 16px;
+	}
+	input[type="submit"] {
+      background: #004C76;
+      color: white;
+    }
+	@media (max-width:500px) {
+		 li {
+			 display:block;
+			 padding:5px;
+		 }
+      }
+	.content {
+		float:right;
+		max-width:800px;
+	}
+	.aside {
+		float:left;
+		width: 250px;
+		padding:0 15px;
+		border:double;
+		border-color:#333;
+		/*background-color: #09f;*/
+		box-shadow: 5px 2px 5px #777777;
+	}
+	.wrapper {
+		text-align:left;
+		margin: 25px 75px;
+	}
+
+	.clearfix:after {
+		visibility: hidden;
+		display:block;
+		font-size:0;
+		content:" ";
+		clear:both;
+		height:0;
+	}
+	.buttons {
+		width:100px;
+		height:50px;
+		border-radius:5px;
+		display:block;
+		float:right;
+		margin:0 2px 15px 2px;
+		text-align:center;
+		color:#ffffff;
+		font-size:1.618em;
+		text-shadow: 1px 3px #333;
+		padding:15px 0 0 0;
+	}
+	#donate {
+		background-color:#063;
+	}
+	#register {
+		background-color:#004C76;
+	}
+	#login{
+		background-color:#09F;
+	}
+	#topnav{
+		padding:25px 0 10px 0;
+	}
+	#lefttop {
+		float:left;	
+		padding: 10px 0 0 5%;
+	}
+	#righttop{
+		float:right;
+		text-align:right;
+		padding: 30px 5% 0 0;
+	}
+	#contact {		
+		padding:20px 15px 0px 15px;
+		color:#FFFFFF;
+		font-size:10px;
+		text-align:center;
+	}
