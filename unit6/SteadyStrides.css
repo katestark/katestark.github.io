@@ -40,7 +40,7 @@
 		background-color:#004C76;
 		font-size:.9em;
 		color:#ffffff;
-		padding: 20px 40px;
+		padding: 0 40px;
 		margin: 0 auto;
 		text-align:center;
 		text-shadow: 0px 1px #333;
@@ -124,6 +124,10 @@
 		text-shadow: 2px 3px #333;
 		padding: 10px 0 0 0;
 	}
+	.sponsorlogo {
+		padding: 10px;
+		display:inline;
+	}
 	#donate {
 		background-color:#063;
 	}
@@ -138,15 +142,13 @@
 		width:70%;
 		padding: 120px 0 0 0;
 	}
-	#footerpd {
-		float:left;
+	#contact {
+		padding: 20px 0 0 0;
 	}
-	#footermojo {
-		float:right;
-	}
-	#contact {		
-		color:#FFFFFF;
+	#sponsors {
+		margin: 0 auto;
 		text-align:center;
+		padding: 20px 0;
 	}
 	@media (max-width:1160px) {
 		 #topnav {
@@ -220,12 +222,6 @@
 		 #mainimg {
 			 padding:140px 10px 0 10px;
 		 }
-	}
-	@media (max-width:675px) {
-		 #footerpd, #footermojo {
-			width: 100%;
-			margin: 20px auto 0 auto;
-		}
 	}
 	@media (max-width:575px) {
 		 body {
