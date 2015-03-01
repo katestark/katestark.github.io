@@ -1,0 +1,375 @@
+<style>
+<head>
+<link href='https://fonts.googleapis.com/css?family=Arvo:400,700|Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
+<link href="SteadyStrides.css" rel="stylesheet"/>  
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+
+<style>
+    body {
+      	text-align: center;
+      	background: white;
+      	font-family: 'Open Sans', sans-serif;
+		margin: 0 auto;
+	 	font-size:14px;
+    	}
+	p {
+		font-size:1em;
+		color: #000000;
+		text-align: left;
+		bottom: 0;
+		padding-bottom: 20px;
+		max-width:800px;
+		margin:0 auto;
+	}
+	a {
+		text-decoration:none;
+		color:#0099CF;
+	}
+	a:hover {
+		color:#0099CF;
+		text-decoration:none;
+	}	
+	h1 {
+		font-size:4.235801032em;
+		font-family: 'Arvo', serif;
+	}
+	h2 {
+		font-size:2.617924em;
+		font-style:strong;
+		font-family: 'Arvo', serif;
+		color:#004C76;
+	}
+	h3 {
+		font-size:1.618em;
+		font-family: 'Arvo', serif;
+		color:#333;
+	}
+	footer {
+		background-color:#004C76;
+		font-size:.9em;
+		color:#ffffff;
+		padding: 0 0px;
+		margin: 0 auto;
+		text-align:center;
+		text-shadow: 0px 1px #333;
+		clear:both;
+	}
+	nav {
+		text-align:center;
+		letter-spacing:.5px;
+		text-shadow: 1px 3px #333;
+		margin: 0 auto;
+		clear:both;
+		background:#004C76;
+		box-shadow: 5px 3px 5px #777777;
+	}
+	ul {
+		padding:10px;
+		list-style:none;
+	}
+	li {
+		display:inline;
+		padding:0px 25px 0px 25px;
+		font-size:1.618em;
+	}
+	li a {
+		color:#ffffff;
+		text-decoration:none;
+	}
+	li a:visited {
+		color:#ffffff;
+		text-decoration:none;
+	}
+	.content {
+		max-width:900px;
+		margin: 0 auto;
+	}
+	.content a {
+		color:#0099CF;
+	}
+	.clearfix:after {
+		visibility: hidden;
+		display:block;
+		font-size:0;
+		content:" ";
+		clear:both;
+		height:0;
+	}
+	#topnav{
+		background-color:#eee;
+		height:120px;
+		padding: 1% 1% 2% 1%;
+		box-shadow: 2px 3px 5px #aaa;
+		position:fixed;
+		top: 0;
+		width:100%;
+		text-align:left;
+	}
+	#topleft{
+		width:50%;
+		height:100px;
+		float:left;
+	}
+	#stickyimg {
+		float:left;
+		margin: 0 5px 0 40px;
+		padding: 5px;
+	}
+	#topright {
+		float:right;
+		margin:25px 50px 0 0;
+		width: 40%;
+	}
+	.buttons {
+		width:150px;
+		height:45px;
+		border-radius:5px;
+		display:block;
+		float:right;
+		margin: 0px 2px 25px 2px;
+		text-align:center;
+		color:#ffffff;
+		font-size:1.618em;
+		font-weight:700;
+		letter-spacing:1.5px;
+		text-shadow: 2px 3px #333;
+		padding: 10px 0 0 0;
+	}
+	label, .form {
+		color:#000000;
+		font-size:1em;
+		font-family: 'Open Sans', sans-serif;
+	}
+	#feePayTR li {
+		color:#000000;
+	}
+	.sponsorlogo {
+		padding: 10px;
+		display:inline;
+	}
+	.headerImageWidth {
+		width: 100%;
+	}
+	#aside-content {
+ 		margin-left: -100%;
+  		width: 197px;
+  		float: left;
+  		padding-bottom: 10000px;
+  		margin-bottom: -10000px;
+  		background: #fafafa;
+  		border-right: 1px solid #a0a0a0;
+	}
+  	#frame, #siteWrapper {
+        	margin-left: 0;
+        	margin-right: 0;
+        }
+	#frame {
+  		width: 100%;
+	}
+	#don {
+		background-color:#063;
+	}
+	#reg {
+		background-color:#004C76;
+	}
+	#log {
+		background-color:#0099CF;
+	}
+	/*#mainimg {
+		margin: 0 auto;
+		width:70%;
+		padding: 120px 0 20px 0;
+	}*/
+	#contact {
+		padding: 20px 0 0 0;
+	}
+	#sponsors {
+		margin: 0 auto;
+		text-align:center;
+		padding: 20px 0;
+	}
+	#footer {
+  		background: #004C76;
+		height:10px;
+	}
+	#footer nav {
+		height: 50px;
+		line-height: 50px;
+		margin-left: 0px;
+	}
+	#container {
+		width: 100%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	@media (max-width:1160px) {
+		 #topnav {
+			 height:120px;
+			 padding:10px;
+		 }
+		 #stickyimg {
+			 margin: 0 5px; 
+      	 	}
+		 #topright{
+			 padding: 10px 5px;
+			 margin: 0 10px;
+		 }
+		 .buttons {
+			 width:120px;
+			 height:40px;
+			 padding:10px 0 0 0;
+		}
+	}
+	@media (max-width:950px) {
+		body {
+			font-size:11px;
+		}
+		p {
+			padding: 5px;
+		 }
+		li {
+			display:inline;
+			padding:0px 15px 0px 15px;
+		}
+		#topnav {
+			 display:block;
+			 height:90px;
+		 }
+		#stickyimg {
+			 margin: 0 5px; 
+      	 	}
+		 #topright {
+			 padding: 10px;
+			 margin: 0 5px;
+		 }
+		 .buttons {
+			 width:100px;
+			 height:30px;
+			 padding:10px 0 0 0;
+		 }
+		 #mainimg {
+			width:80%;
+			padding: 110px 0 20px 0;
+		 }
+	}
+	@media (max-width:780px) {
+		 #topleft{
+			 width:40%;
+			 height: 60px;
+		 }		
+		#topright{
+			 width:50%;
+			 height:40px;
+			 padding: 5px;
+		 }
+	}
+	@media (max-width:725px) {
+		#topnav {
+			 height:110px;
+		 }
+		#topright{
+			 width:55%;
+			 height:40px;
+			 padding: 5px;
+		 }
+		 #topleft{
+			 width:100%;
+			 height: 60px;
+		 }
+		 .buttons{
+			 margin: 0px 2px 5px 2px;
+		 }
+		 #mainimg {
+			 padding:130px 10px 10px 10px;
+		 }
+		#aside-content {
+  			width: 150px;
+  			float: left;
+  			padding-bottom: 10000px;
+			margin-bottom: -10000px;
+  			background: #fafafa;
+  			border-right: 1px solid #a0a0a0;
+			font-size: 1em;
+		}
+		#article-content {
+			margin-left: 150px;
+		}
+	}
+	@media (max-width:575px) {
+		 body {
+			 font-size:10px;
+		 }
+		 li {
+			 display:block;
+			 padding:5px;
+		 }
+		 #topnav {
+			 height:100px;
+		 }
+		 #topleft{
+			 width:100%;
+			 height:50px;
+		 }
+		 #topright{
+			 width:75%;
+			 height:30px;
+		 }
+		 .buttons {
+			 width:90px;
+			 height:30px;
+			 margin: 2px;
+		 }
+		 .buttons a {
+			 color:#ffffff;
+		 }
+		 #mainimg {
+			 padding:120px 10px 10px 10px;
+		 }
+		#aside-content {
+  			display:none;
+  			width: 0;
+  			float: none;
+		}
+		#article-content {
+			margin-left: 0px;
+		}
+      }
+</style>
+<header>
+<!--------------------------Header Field for Frontstream Panel---------------------------->
+<div id="topnav">
+<!--------------------------Left Top Logo and Date---------------------------------------->
+	<div id="topleft">
+		<div id="stickyimg">
+        	<a href="http://parkinsonswellness.org/steadystrides"><img src="Assets/logo plus date.png" width="80%"></a>
+       <!-- <a href="http://parkinsonswellness.org/steadystrides"><img src=		"https://static1.squarespace.com/static/5491ff34e4b02912509e74f5/54c80483e4b01f7dbe46bfe5/54c804a8e4b05c47d38e86c9/1422394542590/SteadyStridesLogo2015.png?format=1500w&storage=local" width="75px"></a></div>
+		<h2>Steady Strides 5k for Parkinson's</h2><h3>Saturday, June 6, 2015<br>Lindner Family Tennis Center</h3>-->
+    </div>
+<!--------------------------Buttons to Log In Donate and Register------------------------->
+	<div id="topright">
+    	<div class="buttons" id="log">
+        	<a href="https://secure.e2rm.com/registrant/LoginRegister.aspx?eventid=160118&langpref=en-CA&Referrer=https%3a%2f%2fadmin.e2rm.com%2fEventSummary.aspx">Log In</a>
+        </div>
+		<div class="buttons" id="reg">
+        	<a href="https://secure.e2rm.com/regV2/regV2.aspx?eventid=160118&langpref=en-CA&Referrer=https%3a%2f%2fadmin.e2rm.com%2fEventSummary.aspx&IsFacebookConnected=false">Register</a>
+        </div>
+		<div class="buttons" id="don"><a href="https://secure.e2rm.com/registrant/Donate.aspx?eventid=160118&langpref=en-CA&Referrer=https%3a%2f%2fadmin.e2rm.com%2fEventSummary.aspx">Donate</a>
+        </div>
+   </div>
+   <div class="clearfix">
+<nav>
+<ul>
+<li><a href="https://secure.e2rm.com/registrant/cms.aspx?EventID=160118&LanguageCode=en-CA&UrlSegment=teams">Teams</a></li>
+<li><a href="https://secure.e2rm.com/registrant/cms.aspx?EventID=160118&LanguageCode=en-CA&UrlSegment=course">Course</a></li>
+<li><a href="https://secure.e2rm.com/registrant/cms.aspx?EventID=160118&LanguageCode=en-CA&UrlSegment=packet-pickup">Packet Pick Up</a></li>
+<li><a href="https://secure.e2rm.com/registrant/cms.aspx?EventID=160118&LanguageCode=en-CA&UrlSegment=schedule">Schedule</a></li>
+<li><a href="https://secure.e2rm.com/registrant/cms.aspx?EventID=160118&LanguageCode=en-CA&UrlSegment=volunteer">Volunteer</a></li>
+</ul>
+</nav>
+</div>
+   
+</div>
+<!-----------------------Drop Shadow is Just Above this Line Below here NOT sticky----------->
+
+</header>
